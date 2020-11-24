@@ -1,7 +1,5 @@
 # openhour_challenge
 
-# openhour_challenge
-
 ## Prerequisites
 
 - PHP 7.1
