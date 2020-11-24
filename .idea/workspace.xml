@@ -113,8 +113,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -131,7 +134,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606218689346</updated>
-      <workItem from="1606218690443" duration="581000" />
+      <workItem from="1606218690443" duration="4541000" />
     </task>
     <servers />
   </component>
@@ -139,9 +142,13 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="507" y="168" width="585" height="534" key="find.popup" timestamp="1606218833640">
+    <state x="507" y="168" width="585" height="534" key="find.popup" timestamp="1606219699867">
       <screen x="0" y="0" width="1600" height="870" />
     </state>
-    <state x="507" y="168" width="585" height="534" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1606218833640" />
+    <state x="507" y="168" width="585" height="534" key="find.popup/0.0.1600.870@0.0.1600.870" timestamp="1606219699867" />
+    <state x="456" y="198" key="run.anything.popup" timestamp="1606221583197">
+      <screen x="0" y="0" width="1600" height="870" />
+    </state>
+    <state x="456" y="198" key="run.anything.popup/0.0.1600.870@0.0.1600.870" timestamp="1606221583197" />
   </component>
 </project>
