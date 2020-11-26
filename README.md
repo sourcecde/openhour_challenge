@@ -10,20 +10,19 @@
 
 - Clone git from the Repository (git clone https://github.com/sourcecde/openhour_challenge.git
 )
-- composer update
-- run the `/yii migrate` command to create the required tables
-- Database username 'root' (username) in config/db.php file
-- Change DB Password in config/db.php file (If any), otherwise leave blank(password)
-```
-    docker-compose run --rm php composer update --prefer-dist
+- Allow webserver write to `runtime` and `web` folders
 
-    docker-compose run --rm php composer install
-    
-    docker-compose up -d
+    chown -R www-data runtime web
 
-```
+- Install composer dependencies
 
-- RUN http://127.0.0.1:8000 in your browser
+    docker-compose run --rm php composer install
+
+- Provision Database
+
+    docker-compose run --rm php yii migrate
+
+- open http://127.0.0.1:8000 in your browser
 
 ## API Documentation
 
